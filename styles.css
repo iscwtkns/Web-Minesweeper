@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+.game {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: darkgreen;
+    width: 504px;
+    height: 504px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 10px gray;
+}
+
+.board {
+    background-color: dimgray;
+    width: 500px;
+    height: 500px;
+    vertical-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.square {
+    display: inline;
+    border: black solid 2px;
+
+}
+
+.revealed {
+    display: inline;
+    text-align: center;
+    border: black solid 2px;
+    align-content: center;
+    background-color: white;
+    font-size: xx-large;
+}
+
+.flag {
+    width: 40px;
+    height: 40px;
+}
+
+.mine {
+    width: 40px;
+    height: 40px;
+}
+
+.mineTile {
+    display: inline;
+    border: black solid 2px;
+    background-color: red;
+}
+
+button {
+    margin-top: 10px;
+}
